@@ -66,7 +66,9 @@ function TextArea({ heading }) {
           Number of word <b>{text.trim().split(" ").length}</b> number of
           Charactor <b>{text.length}</b>
         </p>
-        <p>Time to read this text {text.trim().split(" ").length * 0.008}</p>
+        <p>
+          Time to read this text {text.trim().split(" ").length * 0.008} minutes
+        </p>
       </div>
     </>
   );
